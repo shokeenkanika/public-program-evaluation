@@ -1,0 +1,19 @@
+feature,coef_std,coef_per_unit_logy
+ward_area_km2,0.3401090908346344,0.03143749694347701
+routes_per_km2,0.23617374344834732,0.007046540386807495
+stops_per_km2,0.1551968696060879,0.043690986941991965
+road_density_km_per_km2,0.015127731180393556,0.0022292070505064536
+district_West,0.0,0.0
+district_South West,0.0,0.0
+district_South East,-0.0,-0.0
+district_South,-0.0,-0.0
+district_North West,0.0,0.0
+district_North,0.0,0.0
+district_New Delhi,0.0,0.0
+district_East,-0.0,-0.0
+metro_access_km,0.0,0.0
+nighttime_lights,-0.0,-0.0
+population_density__missing,0.0,0.0
+district_North East,-0.002593548564299527,-0.01606343909274634
+district_Shahdara,-0.06948994645000164,-0.24369123773704957
+population_density,-0.17941045301591654,-4.101115783527964e-06
