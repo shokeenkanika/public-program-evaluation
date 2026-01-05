@@ -2,7 +2,7 @@
 
 ## Background
 
-Delhi's public transport system is spatially uneven. Some wards have good access to rapid transit and dense road networks. Others depend on limited bus coverage. This analysis builds a ward-level dataset to examine how neighborhood characteristics relate to bus service provision.
+Delhi's public transport system is spatially uneven. Some wards have good access to rapid transit and dense road networks. Others depend on limited bus coverage. This analysis builds a ward-level dataset to examine how neighborhood characteristics relate to bus service provision, inspired by the increasing rates of vehicular pollution in New Delhi. The intended audience for this analysis are urban policymakers in the municipal corporation of Delhi. By modelling what characteristics predict bus service intensity, we can model the areas with the highest return on investment. Thus, the results of this study can act as a strategic map for a profitable implementation of more bus service, thereby using pollution funds where they can create most change. 
 
 We face a practical constraint: ward boundaries and counts change over time. Our cleaning process prioritizes geographic consistency by joining all data sources to a single set of ward polygons. Results should be interpreted as applying to these specific ward units.
 
@@ -90,8 +90,6 @@ Loads the cleaned ward dataset. Engineers density variables (stops per km², rou
 Fits an Elastic Net model with cross-validated hyperparameters. Reports model performance and ranks predictors by coefficient magnitude (Question 1).
 
 Runs the ROI scenario analysis (Question 2). Raises stop and route density to the 75th percentile for low-service wards. Ranks wards by modeled gain per rupee invested.
-
-# public-program-evaluation
 
 # Data Sources 
 
