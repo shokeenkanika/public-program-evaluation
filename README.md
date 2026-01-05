@@ -131,3 +131,7 @@ data/processed/gtfs_combined.xlsx -> code/data_cleaning.ipynb -> data/clean/anal
 data/raw/2021.csv -> code/data_cleaning.ipynb -> data/clean/analysis_dataset_ward_level.csv
 
 data/raw/Census 2011 Ward-Level Population Data (OpenCity).csv -> code/data_cleaning.ipynb -> data/clean/analysis_dataset_ward_level.csv
+
+If you wish to reproduce this analysis for yourself, please find the data files I used hosted here: https://uchicago.box.com/s/ufxpxosnyr0g0fv9k0ymvw48kea90c26 
+
+These files are available publically as well, and the relevant sources are cited above. Any minor changes are likely due to changes in archived versions. Hence, I have uploaded the copy I used for my analysis here as an archive too. 
