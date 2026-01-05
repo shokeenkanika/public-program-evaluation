@@ -34,6 +34,9 @@ saved as: /data/raw/VNL_v21_npp_201204-201212_global_vcmcfg_c202205302300.averag
 # Data Handling 
 
 data/processed/Delhi_Bus_GTFS.xlsx -> code/data_cleaning.ipynb -> data/processed/gtfs_combined.xlsx
-data/processed/gtfs_combined.xlsx,
-data/raw/2021.csv, 
+
+data/processed/gtfs_combined.xlsx -> code/data_cleaning.ipynb -> data/clean/analysis_dataset_ward_level.csv
+
+data/raw/2021.csv -> code/data_cleaning.ipynb -> data/clean/analysis_dataset_ward_level.csv
+
 data/raw/Census 2011 Ward-Level Population Data (OpenCity).csv -> code/data_cleaning.ipynb -> data/clean/analysis_dataset_ward_level.csv
